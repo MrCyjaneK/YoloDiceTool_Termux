@@ -6,7 +6,11 @@ const cors = require('cors')
 const port = process.argv[2];
 console.log("======== L O A D I N G ========");
 console.log(" - PORT: "+port);
-
+/*
+ * We don't need to ask user here
+ * We will use config.sh right?
+*/
+/*
 (async () => {
   const response = await prompts([
     {
@@ -52,10 +56,11 @@ All things published there are free to use, because if something works why you s
 I'll never understand it.
 =========`);
   }
-  coin = response.coin
-  password = response.password;
-  username = response.name;
-  yolodice = response.yolodice;
+*/
+  coin = "DOGE"; #😎
+  password = "13.04.2019"; #😭
+  username = process.argv[3];
+  yolodice = process.argv[4];
   app.use(cors())
   app.get('/create_bet', (req, res) => {
     if (req.query.pass == password) {
