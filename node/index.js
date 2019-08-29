@@ -105,4 +105,3 @@ I'll never understand it.
     "range": 'lo'
   }
   setTimeout(() => { console.log(`PORT: ${port}`) },5000)
-})();
