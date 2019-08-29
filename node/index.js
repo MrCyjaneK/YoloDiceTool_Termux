@@ -1,5 +1,5 @@
-const prompts = require('prompts');
-prompts.override(require('yargs').argv);
+//const prompts = require('prompts');
+//prompts.override(require('yargs').argv);
 const express = require('express')
 const app = express()
 const cors = require('cors')
