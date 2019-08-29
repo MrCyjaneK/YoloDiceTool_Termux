@@ -57,8 +57,8 @@ I'll never understand it.
 =========`);
   }
 */
-  coin = "DOGE"; #😎
-  password = "13.04.2019"; #😭
+  coin = "DOGE"; // 😎
+  password = "13.04.2019"; // 😭
   username = process.argv[3];
   yolodice = process.argv[4];
   app.use(cors())
